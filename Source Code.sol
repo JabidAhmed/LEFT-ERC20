@@ -770,7 +770,7 @@ contract LEFT is Context, IERC20, Ownable {
     uint8 private _decimals = 9;
 
     // 
-    string private _name = "Left Facing Pebbles";                                       // Name
+    string private _name = "Left Facing Pebbles";                               // Name
     string private _symbol = "LEFT";                                            // Symbol
     uint256 private _tTotal = 1000 * 10**9 * 10**uint256(_decimals);            // Total Limited Supply
 
@@ -788,7 +788,7 @@ contract LEFT is Context, IERC20, Ownable {
 
     uint256 public _maxTxAmount = 1000 * 10**9 * 10**uint256(_decimals);
     uint256 public numTokensToExchangeForMarketing = _tTotal.div(100).div(100);
-    address payable public marketingWallet = payable(0xe8e757a87a8af6d8575991629e32983c2d14fd37);   // Marketing
+    address payable public marketingWallet = payable(0xE8e757A87A8aF6D8575991629E32983c2d14FD37);   // Marketing
 
     mapping (address => uint256) private _rOwned;
     mapping (address => uint256) private _tOwned;
